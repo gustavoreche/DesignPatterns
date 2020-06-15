@@ -15,8 +15,8 @@ public class Main {
 
         reforma.finaliza();
 
-        // reforma.aplicaDescontoExtra(); lancaria excecao, pois não pode dar desconto nesse estado
-        // reforma.aprova(); lança exceção, pois não pode ir para aprovado
+         reforma.aplicaDescontoExtra(); // lancaria excecao, pois não pode dar desconto nesse estado
+         reforma.aprova(); // lança exceção, pois não pode ir para aprovado
 	}
 
 }
